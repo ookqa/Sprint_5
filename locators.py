@@ -14,6 +14,10 @@ class ConstructorLocators:
     BUN_TAB = (By.XPATH, "//span[text()='Булки']/parent::div")  # вкладка булок в конструкторе
     SAUCE_TAB = (By.XPATH, "//span[text()='Соусы']/parent::div")  # вкладка соуcов в конструкторе
     TOPPINGS_TAB = (By.XPATH, "//span[text()='Начинки']/parent::div")  # вкладка начинок в конструкторе
+    BUN_SECTION_TITLE = (By.XPATH, "//h2[text()='Булки']")  # заголовок секции булок в конструкторе
+    SAUCE_SECTION_TITLE = (By.XPATH, "//h2[text()='Соусы']")  # заголовок секции соуcов в конструкторе
+    TOPPINGS_SECTION_TITLE = (By.XPATH, "//h2[text()='Начинки']")  # заголовок секции начинок в конструкторе
+    CURRENT_TAB = (By.XPATH, "//span/parent::div[contains(@class, 'current')]")  # текущий выбранный таб
 
 
 class RegisterPageLocators:
